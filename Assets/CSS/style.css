@@ -1,19 +1,21 @@
 body {
   font-family: 'Crimson Pro', serif;
   box-sizing: border-box;
-  background-color: white;
-    }
+}
 
 
  /* INDEX.HTML */
 
-    .body {
-      background-color: black;
-      color: white;
-      width: 300px;
-      padding: 50px;
-      margin: 20px;
-    }
+.body1 {
+  
+  background-color: black;
+  color: white;
+  text-size-adjust: 12px;
+  height: 1000px;
+  width: 600px;
+  padding: 40px;
+  margin: 50px;
+}
 
 
 /* NAVIGATION */
@@ -62,7 +64,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #ffffff;
+  background-color: white;
   color: black;
   font-family: 'Crimson Pro', serif;
 }
@@ -78,7 +80,8 @@ input[type=submit]:hover {
 .body {
   background-color: black;
   color: white;
-  width: 300px;
-  padding: 50px;
-  margin: 20px;
+  height: 1000px;
+  width: 600px;
+  padding: 40px;
+  margin: 50px;
 }
