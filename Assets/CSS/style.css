@@ -1,10 +1,50 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {
+  font-family: 'Crimson Pro', serif;
+  box-sizing: border-box;
+  background-color: white;
+    }
+
+
+ /* INDEX.HTML */
+
+    .body {
+      background-color: black;
+      color: white;
+      width: 300px;
+      padding: 50px;
+      margin: 20px;
+    }
+
+
+/* NAVIGATION */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+    
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+
+/* CONTACT.HTML */
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -13,20 +53,32 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: rgb(0, 0, 0);
   color: white;
-  padding: 12px 20px;
+  padding: 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #ffffff;
+  color: black;
+  font-family: 'Crimson Pro', serif;
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 50px;
+}
+
+/* PORTFOLIO.HTML */
+
+.body {
+  background-color: black;
+  color: white;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
 }
